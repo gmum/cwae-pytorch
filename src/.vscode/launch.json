@@ -1,0 +1,56 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CWAE MNIST",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/train_autoencoder.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--model",
+        "cwae",
+        "--dataset",
+        "mnist",
+        "--z_dim",
+        "8",
+        "--export_fid"
+      ]
+    },
+    {
+      "name": "CWAE CIFAR10",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/train_autoencoder.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--model",
+        "cwae",
+        "--dataset",
+        "cifar10",
+        "--z_dim",
+        "64",
+        "--export_fid"
+      ]
+    },
+    {
+      "name": "CWAE CELEBA",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/train_autoencoder.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--model",
+        "cwae",
+        "--dataset",
+        "celeba",
+        "--z_dim",
+        "64",
+        "--export_fid"
+      ]
+    }
+  ]
+}
