@@ -1,6 +1,6 @@
 # Repository info
 
-This repository contains an implementation of Cramer-Wold AutoEncoder(CWAE) in PyTorch, proposed by [Szymon Knop, Jacek Tabor, Przemysław Spurek, Igor Podolak, Marcin Mazur, Stanisław Jastrzębski (2018)](https://arxiv.org/abs/1805.09235).
+This repository contains an implementation of Cramer-Wold AutoEncoder(CWAE) in PyTorch, proposed by [Szymon Knop, Przemysław Spurek, Jacek Tabor, Igor Podolak, Marcin Mazur, Stanisław Jastrzębski (2018)](https://jmlr.org/papers/v21/19-560.html). TensorFlow version is available [here](https://github.com/gmum/cwae).
 
 # Contents of the repository
 
